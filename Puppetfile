@@ -36,3 +36,22 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "adium",         "1.1.1"
+github "dockutil",      "0.1.2"
+github "dropbox",       "1.1.1"
+github "iterm2",        "1.0.2"
+github "github_for_mac","1.0.1"
+github "macvim",        "1.0.0"
+github "firefox",       "1.1.1"
+github "mysql",         "1.1.3"
+github "osx",           "1.4.0"
+github "postgresql",    "1.0.4"
+github "pow",           "1.0.0"
+github "redis",         "1.0.0"
+github "skype",         "1.0.3"
+github "sysctl",        "1.0.0"
+github "tunnelblick",   "1.0.1"
+github "transmission",  "1.0.0"
+github "vagrant",       "2.0.7"
+github "virtualbox",    "1.0.4"
