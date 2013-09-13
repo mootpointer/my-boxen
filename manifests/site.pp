@@ -92,6 +92,7 @@ node default {
     target => $boxen::config::repodir
   }
 
+ include sublime_text_2
  include macvim
  include iterm2::stable
  include skype
