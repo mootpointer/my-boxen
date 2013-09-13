@@ -64,17 +64,20 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_4
-  include nodejs::v0_6
-  include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 
+
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
+
+  class { 'nodejs::global':
+    version => 'v0.10'
+  }
   # common, useful packages
   package {
     [
@@ -88,4 +91,15 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+ include macvim
+ include iterm2::stable
+ include skype
+ include adium
+ include github_for_mac
+ include tunnelblick
+ include postgresql
+ include adobe_reader
+
+
 }

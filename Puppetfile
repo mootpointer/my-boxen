@@ -33,6 +33,7 @@ github "ruby",       "6.3.0"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "python",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -55,3 +56,7 @@ github "tunnelblick",   "1.0.1"
 github "transmission",  "1.0.0"
 github "vagrant",       "2.0.7"
 github "virtualbox",    "1.0.4"
+github "powerline",     "1.0.0", :repo => "jfelchner/puppet-powerline"
+github "ctags",         "1.0.0"
+github "steam",         "1.0.1"
+github "adobe_reader",  "1.0.1"
