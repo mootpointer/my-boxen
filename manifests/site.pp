@@ -104,6 +104,9 @@ node default {
  include tunnelblick
  include postgresql
  include adobe_reader
+ include brewcask
+
+ package { 'google-chrome': provider => 'brewcask'}
 
 
 }
