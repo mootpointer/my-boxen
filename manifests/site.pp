@@ -98,7 +98,6 @@ node default {
  include sublime_text_2
  include macvim
  include iterm2::stable
- include github_for_mac
  include postgresql
  include brewcask
 
