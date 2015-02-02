@@ -98,12 +98,8 @@ node default {
  include sublime_text_2
  include macvim
  include iterm2::stable
- include skype
- include adium
  include github_for_mac
- include tunnelblick
  include postgresql
- include adobe_reader
  include brewcask
 
  package { 'google-chrome': provider => 'brewcask'}
