@@ -119,6 +119,11 @@ GITHUBTARBALL
     postgresql (1.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (2.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -161,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: paulcollinsiii/puppet-powerline
   specs:
-    powerline (1.0.3)
+    powerline (1.0.7)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -205,7 +210,8 @@ DEPENDENCIES
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresql (= 1.0.4)
-  powerline (= 1.0.3)
+  powerline (= 1.0.7)
+  python (= 2.0.0)
   redis (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
