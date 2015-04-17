@@ -57,6 +57,7 @@ node default {
   include git
   include hub
   include nginx
+  include python
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -93,6 +94,9 @@ node default {
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
+  }
+  class { 'python::global':
+    version => '2.7.8'
   }
 
  include sublime_text_2
