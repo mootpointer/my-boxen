@@ -64,7 +64,7 @@ node default {
   }
 
   # node versions
-  nodejs::version { 'v0.10': }
+  nodejs::version { 'v0.12.2': }
 
   # default ruby versions
   ruby::version { '2.0.0': }
@@ -79,7 +79,7 @@ node default {
   }
 
   class { 'nodejs::global':
-    version => 'v0.10'
+    version => 'v0.12.2'
   }
   # common, useful packages
   package {
