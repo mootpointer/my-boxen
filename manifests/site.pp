@@ -99,9 +99,7 @@ node default {
     version => '2.7.8'
   }
 
- include sublime_text_2
- include macvim
- include iterm2::stable
+
  include postgresql
  include brewcask
 
