@@ -25,6 +25,7 @@ class people::mootpointer {
     'ffmpeg' :;
     'the_silver_searcher': ;
     'p4merge': provider => 'brewcask';
+    'exercism':;
   }
 
 }
