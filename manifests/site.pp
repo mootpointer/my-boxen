@@ -65,23 +65,18 @@ node default {
   }
 
   # node versions
-  nodejs::version { 'v0.12.2': }
+  nodejs::version { '0.8': }
+  nodejs::version { '0.10': }
+  nodejs::version { '0.12': }
 
   # default ruby versions
   ruby::version { '2.0.0': }
+
   ruby::version { '2.1.0': }
   ruby::version { '2.1.2': }
   ruby::version { '2.1.3': }
   ruby::version { '2.2.0': }
 
-
-  class { 'ruby::global':
-    version => '2.0.0'
-  }
-
-  class { 'nodejs::global':
-    version => 'v0.12.2'
-  }
   # common, useful packages
   package {
     [
@@ -99,9 +94,7 @@ node default {
     version => '2.7.8'
   }
 
- include sublime_text_2
- include macvim
- include iterm2::stable
+
  include postgresql
  include brewcask
 
