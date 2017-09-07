@@ -22,4 +22,4 @@
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 51
 #
-ruby::build::ensure: 'v20150130'
+ruby::build::ensure: 'v20170726'

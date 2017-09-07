@@ -59,11 +59,6 @@ GITHUBTARBALL
     nginx (1.7.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (5.0.9)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -72,11 +67,6 @@ GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (2.8.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -114,19 +104,9 @@ GITHUBTARBALL
     sysctl (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.2.1)
-
-GITHUBTARBALL
   remote: mloberg/puppet-python
   specs:
     python (3.1.0)
-
-GITHUBTARBALL
-  remote: paulcollinsiii/puppet-powerline
-  specs:
-    powerline (1.0.9)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -158,13 +138,10 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mysql (= 1.1.3)
   nginx (= 1.7.0)
-  nodejs (= 5.0.9)
   openssl (= 1.0.0)
   osx (= 2.8.0)
-  phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
   postgresql (= 5.0.0)
-  powerline (= 1.0.9)
   python (= 3.1.0)
   redis (= 3.2.0)
   repository (= 2.4.1)
@@ -172,5 +149,4 @@ DEPENDENCIES
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
-  xquartz (= 1.2.1)
 

@@ -56,7 +56,6 @@ node default {
   include dnsmasq
   include git
   include hub
-  include nginx
   include python
 
   # fail if FDE is not enabled
@@ -65,18 +64,12 @@ node default {
   }
 
   # node versions
-  nodejs::version { '0.8': }
-  nodejs::version { '0.10': }
-  nodejs::version { '0.12': }
 
   # default ruby versions
-  ruby::version { '2.0.0': }
 
-  ruby::version { '2.1.0': }
-  ruby::version { '2.1.2': }
-  ruby::version { '2.1.3': }
   ruby::version { '2.2.0': }
-
+  ruby::version { '2.3.0': }
+  ruby::version { '2.4.1': }
   # common, useful packages
   package {
     [
@@ -97,8 +90,6 @@ node default {
 
  include postgresql
  include brewcask
-
- package { 'google-chrome': provider => 'brewcask'}
 
 
 }
