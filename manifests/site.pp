@@ -90,6 +90,7 @@ node default {
 
  include postgresql
  include brewcask
+ include redis
 
 
 }
